@@ -20,6 +20,6 @@
 
 This is the <b>jenkins</b> portlet. Deployed by jenkins and added on liferay portal.<br />
 
-<b>I changed smt.</b><br />
+Last code update: 18.03.2016 18:10<br/>
 
 <c:out escapeXml="true" value="${releaseInfo}" />.
