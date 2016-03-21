@@ -20,6 +20,6 @@
 
 This is the <b>jenkins</b> portlet. Deployed by jenkins and added on liferay portal.<br />
 
-Last code update: 21.03.2016 21:20<br/>
+Last code update: 21.03.2016 21:25<br/>
 
 <c:out escapeXml="true" value="${releaseInfo}" />.
