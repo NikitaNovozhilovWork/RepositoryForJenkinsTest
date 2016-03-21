@@ -27,8 +27,12 @@ public class JenkinsViewController {
 
 	@RenderMapping
 	public String question(Model model) {
-		model.addAttribute("releaseInfo", ReleaseInfo.getReleaseInfo());
-
+		if (ClassForTest.executeTest(true)) {
+			model.addAttribute("releaseInfo", ReleaseInfo.getReleaseInfo());
+		} else {
+			model.addAttribute("releaseInfo", "FAILED TESTS");
+		}
+		
 		return "jenkins/view";
 	}
 
