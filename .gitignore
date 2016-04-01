@@ -2,3 +2,5 @@ jenkins/.settings/
 jenkins/.classpath
 jenkins/.project
 jenkins/.tern-project
+Markup/.sass-cache/
+Markup/css/
